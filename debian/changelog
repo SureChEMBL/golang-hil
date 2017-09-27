@@ -1,0 +1,17 @@
+golang-github-hashicorp-hil (0.0~git20160326.0.40da60f-2) unstable; urgency=medium
+
+  [ Paul Tagliamonte ]
+  * Team upload.
+  * Use a secure transport for the Vcs-Git and Vcs-Browser URL
+
+  [ Konstantinos Margaritis ]
+  * Replace golang-go with golang-any in Build-Depends, remove golang-go from
+    Depends
+
+ -- Konstantinos Margaritis <markos@debian.org>  Tue, 08 Aug 2017 16:26:31 +0300
+
+golang-github-hashicorp-hil (0.0~git20160326.0.40da60f-1) unstable; urgency=medium
+
+  * Initial release (Closes: #819280).
+
+ -- Dmitry Smirnov <onlyjob@debian.org>  Sat, 26 Mar 2016 12:06:21 +1100

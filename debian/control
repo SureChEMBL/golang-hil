@@ -1,0 +1,25 @@
+Source: golang-github-hashicorp-hil
+Section: devel
+Priority: extra
+Maintainer: Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>
+Uploaders: Dmitry Smirnov <onlyjob@debian.org>, Tim Potter <tpot@hpe.com>
+Build-Depends: debhelper (>= 9),
+               dh-golang,
+               golang-any,
+               golang-github-mitchellh-reflectwalk-dev
+Standards-Version: 3.9.7
+Homepage: https://github.com/hashicorp/hil
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-go/packages/golang-github-hashicorp-hil.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-go/packages/golang-github-hashicorp-hil.git
+XS-Go-Import-Path: github.com/hashicorp/hil
+
+Package: golang-github-hashicorp-hil-dev
+Architecture: all
+Depends: ${shlibs:Depends},
+         ${misc:Depends},
+         golang-github-mitchellh-reflectwalk-dev
+Description: small embedded language for string interpolations
+ HIL (HashiCorp Interpolation Language) is a lightweight embedded language
+ used primarily for configuration interpolation. The goal of HIL is to make
+ a simple language for interpolations in the various configurations of
+ HashiCorp tools.
